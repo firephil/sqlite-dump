@@ -13,6 +13,7 @@ public class SqliteDump{
     	String command = "sqlite3.exe  chinook.db .dump .output 1.sql";
     	System.out.println(command);
     	
+        //public Process exec(String[] cmdarray)
         Process process = Runtime.getRuntime().exec(command);
 
 
